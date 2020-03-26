@@ -23,7 +23,7 @@ view: customer_transactions {
     sql: ${TABLE}.CustomerName ;;
   }
 
-  dimension: discount {
+  measure: discount {
     type: number
     sql: ${TABLE}.Discount ;;
   }
@@ -68,7 +68,7 @@ view: customer_transactions {
     sql: ${TABLE}.Region ;;
   }
 
-  dimension: sales {
+  measure: sales {
     type: number
     sql: ${TABLE}.Sales ;;
   }
